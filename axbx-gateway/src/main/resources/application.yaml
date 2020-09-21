@@ -6,6 +6,12 @@ spring:
     name: axbx-gateway
   cloud:
     gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
       routes:
         - id: url-proxy-ums
           uri: lb://axbx-admin-ums
