@@ -23,5 +23,5 @@ import org.springframework.context.annotation.Configuration;
 @EnableDiscoveryClient
 @EnableAutoConfiguration
 @Configuration
-public class NacosConfigConfiguration {
+public class NacosConfiguration {
 }

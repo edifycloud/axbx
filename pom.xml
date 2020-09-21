@@ -11,6 +11,7 @@
 
     <modules>
         <module>axbx-gateway</module>
+        <module>axbx-admin-ums</module>
     </modules>
 
     <properties>

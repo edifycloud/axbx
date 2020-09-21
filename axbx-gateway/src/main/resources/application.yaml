@@ -1,0 +1,16 @@
+server:
+  port: 18000
+
+spring:
+  application:
+    name: axbx-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: url-proxy-ums
+          uri: lb://axbx-admin-ums
+          predicates:
+            - Path=/ums/**
+          filters:
+            # 去除前缀/ums
+            - StripPrefix=1
