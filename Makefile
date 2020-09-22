@@ -12,3 +12,6 @@ axbx-gateway:
 axbx-portal-ui:
 	cd axbx-portal-ui && docker build . -t hirosyu/axbx-portal-ui
 
+deploy:
+	docker push hirosyu/axbx-gateway & docker push hirosyu/axbx-portal-ui & docker push hirosyu/axbx-admin-ums
+	kubectl apply -f k8s/gateway.yaml

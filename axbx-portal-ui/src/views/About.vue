@@ -14,7 +14,7 @@ export default class About extends Vue {
     const ums = new Ums();
     ums.getAllUser().then(x => {
       x.forEach(u => console.log(u, u.role));
-    })
+    });
   }
 }
 </script>

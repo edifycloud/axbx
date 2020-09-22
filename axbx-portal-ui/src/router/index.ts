@@ -7,12 +7,25 @@ Vue.use(VueRouter);
 const routes: Array<RouteConfig> = [
   {
     path: "/",
+    name: "Index",
+    redirect: {
+      path: "/home"
+    }
+  },
+  {
+    path: "/home",
     name: "Home",
-    component: Home
+    component: Home,
+    meta: {
+      keepAlive: true
+    }
   },
   {
     path: "/about",
     name: "About",
+    meta: {
+      keepAlive: true
+    },
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
