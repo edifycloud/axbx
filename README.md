@@ -3,6 +3,9 @@
 ![未命名文件](http://img3.betajie.com/typora/未命名文件.png?imgslim)
 
 
+
+![axbx-k8s](http://img3.betajie.com/typora/axbx-k8s.png?imgslim)
+
 项目模块
 
 - [x] axbx-portal-ui 门户前端
