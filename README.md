@@ -1,3 +1,7 @@
+# AxBx
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fedifycloud%2Faxbx.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fedifycloud%2Faxbx?ref=badge_shield)
+
 系统架构图
 
 ![未命名文件](http://img3.betajie.com/typora/未命名文件.png?imgslim)
